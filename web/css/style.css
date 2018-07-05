@@ -1,0 +1,175 @@
+body {
+    font-family: "Roboto Light",sans-serif;
+    font-size: 14px;
+}
+
+header, .main-content, footer {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: 1px solid #d4d4d4;
+}
+
+/*header begin*/
+header {
+    background: url("../img/header_background.png");
+    background-repeat: repeat-x;
+    padding-top: 20px;
+    height: 228px;
+    /*margin-bottom: 20px;*/
+    /*background-color: #f9f9f9;*/
+}
+header .contacts {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+header .contacts span {
+    text-decoration: underline;
+}
+
+header .header-title {
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+header .header-logo img {
+    position: relative;
+    left: 780px;
+    bottom: 205px;
+}
+/*header end*/
+
+/*Комментарии begin*/
+.main-content {
+    padding-top: 20px;
+    background-color: #eee;
+}
+.comment-title span.name {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.comment-title span.date {
+    display: inline-block;
+    font-size: 10.62px;
+}
+
+.comment-content {
+    margin-bottom: 25px;
+}
+/*Комментарии end*/
+
+/*Форма begin*/
+
+.comment-form {
+    margin-bottom: 62px;
+    margin-top: 40px;
+}
+.comment-form .form-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.comment-form label {
+    font-weight: normal;
+}
+
+.comment-form input {
+    width: 462px;
+    border-radius: 4px;
+    border: 0;
+}
+
+.comment-form textarea {
+    width: 462px;
+    height: 135px;
+    resize: none;
+    border-radius: 4px;
+    border: 2px solid black;
+    background-color: #eee;
+}
+
+.comment-form button {
+    position: relative;
+    background-color: #eee;
+    border: 2px solid black;
+    font-size: 18px;
+    width: 135px;
+    left: 327px;
+    top: 10px;
+}
+/*Форма end*/
+
+/*footer begin*/
+footer {
+    background-color: #f9f9f9;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+footer .footer-contacts {
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+footer .footer-contacts span {
+    text-decoration: underline;
+}
+
+footer .copyrights {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.footer-text {
+    position: relative;
+    top: -102px;
+    left: 90px;
+}
+/*footer end*/
+
+/*медиа-запросы*/
+@media (max-width: 1100px) {
+    header .header-logo img {
+        left: 680px;
+    }
+    header, .main-content, footer {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+@media (max-width: 1000px) {
+    header .header-logo img {
+        left: 580px;
+    }
+    header, .main-content, footer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media (max-width: 900px) {
+    header .header-logo img {
+        left: 480px;
+    }
+    header, .main-content, footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (max-width: 800px) {
+    header .header-logo img {
+        left: 380px;
+    }
+    header, .main-content, footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family:'Roboto';
+    /*font-style:lighter;*/
+    src:url("../fonts/Roboto.woff") format('woff');
+}
+
+@font-face {
+    font-family:'Roboto Bold';
+    /*font-style:bolder;*/
+    src:url("../fonts/Robotobold.woff") format('woff');
+}
+
+@font-face {
+    font-family:'Roboto Light';
+    /*font-style:bolder;*/
+    src:url("../fonts/Robotolight.woff") format('woff');
+}
+
+@font-face {
+    font-family:'Roboto Italic';
+    /*font-style:bolder;*/
+    src:url("../fonts/Robotoitalic.woff") format('woff');
+}
