@@ -29,12 +29,19 @@ frontend\views\comment\index.php
 Параметры подключения следующие:
 
 SSH Hostname: 127.0.0.1:2222
+
 SSH Username: vagrant
+
 SSH Password: vagrant (по умолчанию)
+
 SSH Keyfile: 'путь к проекту'\'название папки проекта'\.vagrant\machines\'имя виртуальной машины'\virtualbox\private_key
+
 MySql Hostname: 127.0.0.1
+
 MySql Server port: 3306
+
 Username: root
+
 Password: по умолчанию пароль у рута отсутствует
 
 После подключения создаём в ней таблицу с помощью sql-запроса:
@@ -48,6 +55,7 @@ CREATE TABLE `comment` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
+
 
 5. Открываем браузер и вводим: y2aa-frontend.test. Данный адрес по умолчанию прописан в настройках установщика yii2.
 
