@@ -4,6 +4,7 @@ namespace frontend\models;
 
 
 use yii\base\Model;
+use yii\helpers\Html;
 
 class CommentForm extends Model
 {
@@ -35,8 +36,8 @@ class CommentForm extends Model
     {
 
         $comment = new Comment();
-        $comment->username = $this->username;
-        $comment->content = $this->content;
+        $comment->username = Html::encode($this->username);
+        $comment->content = Html::encode($this->content);
         $comment->posted_at = time();
         $comment->ip_address = getenv('REMOTE_ADDR');
 
