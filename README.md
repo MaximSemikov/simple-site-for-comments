@@ -2,7 +2,7 @@
 1. Скачать и установить yii2-advanced. Я делал это, используя vagrant. Данный процесс установки можно найти по данной ссылке:
 https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md
 
-2. В папке frontend нужно заменить или добавить следующие файлы и папки:
+2. В папке frontend, созданного вами проекта, нужно заменить или добавить следующие файлы и папки из данного репозитория:
 
 frontend\assets\AppAsset.php
 
