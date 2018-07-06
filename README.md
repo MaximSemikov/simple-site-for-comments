@@ -3,6 +3,7 @@
 https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md
 
 2. В папке frontend нужно заменить или добавить следующие файлы и папки:
+
 frontend\assets\AppAsset.php
 frontend\config\main.php
 frontend\controllers\AppController.php
@@ -18,6 +19,7 @@ frontend\views\comment\index.php
 4. При установке yii2 в mysql будет создана база данных yii2advanced. Подключаемся к ней. Я делал с помощью MySql Workbench.
 Выбираем метод подключения: Standard TCP/IP over SSH.
 Параметры подключения следующие:
+
 SSH Hostname: 127.0.0.1:2222
 SSH Username: vagrant
 SSH Password: vagrant (по умолчанию)
@@ -28,6 +30,7 @@ Username: root
 Password: по умолчанию пароль у рута отсутствует
 
 После подключения создаём в ней таблицу с помощью sql-запроса:
+
 CREATE TABLE `comment` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `username` varchar(16) NOT NULL,
