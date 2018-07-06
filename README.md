@@ -5,13 +5,21 @@ https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-instal
 2. В папке frontend нужно заменить или добавить следующие файлы и папки:
 
 frontend\assets\AppAsset.php
+
 frontend\config\main.php
+
 frontend\controllers\AppController.php
+
 frontend\controllers\CommentController.php
+
 frontend\models\CommentForm.php
+
 frontend\models\Comment.php
+
 frontend\views\comment\index.php
+
 frontend\views\layouts\commentslayout.php
+
 frontend\views\comment\index.php
 
 3. Запускаем командную строку от имени администратора. Переходим в корень проекта с yii2 и запускаем команду vagrant up.
