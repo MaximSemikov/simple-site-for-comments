@@ -47,13 +47,21 @@ Password: по умолчанию пароль у рута отсутствуе�
 После подключения создаём в ней таблицу с помощью sql-запроса:
 
 CREATE TABLE `comment` (
+
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  
   `username` varchar(16) NOT NULL,
+  
   `content` varchar(128) NOT NULL,
+  
   `posted_at` int(11) NOT NULL,
+  
   `ip_address` varchar(45) NOT NULL,
+  
   PRIMARY KEY (`id`),
+  
   UNIQUE KEY `id_UNIQUE` (`id`)
+  
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 
